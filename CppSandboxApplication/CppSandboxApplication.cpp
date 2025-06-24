@@ -2,11 +2,15 @@
 //
 
 #include <iostream>
+#include "Time.h"
 
 int main()
 {
     std::cout << "Hello World!\n";
 
+    Time t(8, 16, 0);
+
+    std::cout << t.GetMinutes();
 
 }
 

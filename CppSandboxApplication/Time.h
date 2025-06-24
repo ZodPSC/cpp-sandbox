@@ -1,8 +1,18 @@
 #pragma once
 class Time
 {
-	int hours = 0;
-	int minutes = 0;
-	int second = 0;
+private:
+	int hours;
+	int minutes;
+	int seconds;
+public:
+	Time(int h, int m, int s);
+
+	int GetHours() const;
+	int GetMinutes() const;
+	int GetSeconds() const;
+	//int hours = 0;
+	//int minutes = 0;
+	//int second = 0;
 };
 
